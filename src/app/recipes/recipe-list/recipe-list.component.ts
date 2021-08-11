@@ -8,7 +8,7 @@ import { Recipe } from '../recipe.model';
 })
 export class RecipeListComponent implements OnInit {
   recipes: Recipe[] = [
-    new Recipe('A Tet Recipe','this is a simpy test','')
+    new Recipe('A Test Recipe','this is a simpy test','https://cdn.stocksnap.io/img-thumbs/960w/food-recipe_G8QICMKLUV.jpg')
   ];
 
   constructor() { }
